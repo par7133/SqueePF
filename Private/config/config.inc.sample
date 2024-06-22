@@ -1,0 +1,92 @@
+<?php
+
+/**
+ * Copyright 2021, 2026 5 Mode
+ *
+ * This file is part of SqueePF.
+ *
+ * SqueePF is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * SqueePF is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.  
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SqueePF. If not, see <https://www.gnu.org/licenses/>.
+ *
+ * config.inc
+ * 
+ * Configuration settings.
+ *
+ * @author Daniele Bonini <my25mb@has.im>
+ * @copyrights (c) 2016, 2026 5 Mode
+  */
+
+define('DEBUG', true);
+
+define('APP_NAME', "SqueePF");
+define('APP_HOST', "squeepf.5mode-foss.eu");
+define('APP_PATH', "/pathto/SqueePF");
+define('APP_PRIVATE_PATH', "/pathto/SqueePF/Private");
+define('APP_PUBLIC_PATH', "/pathto/SqueePF/Public");
+define('APP_SECRETS_FOLDER',"scr");
+define('APP_ROUTES_PATH', "/pathto/SqueePF/Private/routes");
+define('APP_ERROR_PATH', "/pathto/SqueePF/Private/error");
+define('APP_LICENSE', <<<LICENSETEXT
+Copyright 2021, 2024 5 Mode
+
+This file is part of SqueePF.
+
+SqueePF is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+SqueePF is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.  
+ 
+You should have received a copy of the GNU General Public License
+along with SqueePF. If not, see <https://www.gnu.org/licenses/>.
+LICENSETEXT
+);
+
+
+$CONFIG = [
+  'DEBUG' => true,
+
+  'APP' => [
+      'NAME' => "SqueePF",
+      'HOST' => "squeepf.5mode-foss.eu",
+      'PATH' => "/pathto/SqueePF/Public",
+      'PRIVATE_PATH' => "/pathto/SqueePF/Private",
+      'PUBLIC_PATH' => "/pathto/SqueePF/Public",
+      'SECRETS_FOLDER' => "scr",
+      'ROUTES_PATH' => "/pathto/SqueePF/Private/routes",
+      'ERROR_PATH' => "/pathto/SqueePF/Private/error",
+      'LICENSE' => <<<LICENSETEXT
+Copyright 2021, 2024 5 Mode
+
+This file is part of SqueePF.
+
+SqueePF is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+SqueePF is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.  
+ 
+You should have received a copy of the GNU General Public License
+along with SqueePF. If not, see <https://www.gnu.org/licenses/>.
+LICENSETEXT
+             
+            ]
+];
