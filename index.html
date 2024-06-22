@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+      <title>SqueePF: download and index of the doc</title>
+       
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+      <link rel="shortcut icon" href="favicon.ico" />
+    
+      <meta name="description" content="Welcome to Squeejs! Let everyone squeez its javascript code."/>
+      <meta name="author" content="5 Mode"/> 
+      <meta name="robots" content="index,follow"/>
+      <meta name="keywords" content="Squeejs,javascript,framework,squeejs.com,MIT,license,5 Mode"/>
+      
+      <script src="/Public/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+      <script src="/Public/js/common.js" type="text/javascript"></script>
+      <script src="/Public/js/squeejs.js?r=3445566" type="text/javascript"></script>
+       
+      <link href="/Public/css/style.css?v=1631827555" type="text/css" rel="stylesheet">
+      
+</head>
+<body style="border:0px solid lightgray; padding:20px; margin-right:20px;">
+
+<div id="content" style="max-width:2400px;">  
+  
+<img src="/Public/res/logo.png" style="width:300px;background:#FFFFFF;border:1px solid gray;"><br>
+
+<br><br><br>
+
+<div style="color:green;font-size:35px;font-weight:900;">Download:</div>
+<br>
+<div style="color:darkcyan;font-size:35px;font-weight:900;">
+<a href="/squeepf-0.0.5.tar.gz">tar.gz</a>&nbsp;&nbsp;<a href="/squeepf-0.0.5.zip">zip</a>
+</div>
+
+<br><br>
+
+<h2>INDEX</h2>    
+
+SqueePF<br><br>
+
+Sanity-check quasi universale and PHP Framework<br>
+<br>
+SqueePF born as an attempt to contribute to the security of your websites in this hostile jungle.<br>
+<br>
+Sanity checks performed live per route, by the router:<br>
+<br>
+ROUTE STRUCTURE;<br>
+ROUTE DEPENDENCIES;<br>
+ROUTE WEB RESOURCES;<br>
+Please actionate DEBUG to disable messages.<br>
+<br>
+Screenshot:<br>
+<br><br>
+
+<img src="/Public/res/logo.png">
+
+<div style="clear:both; margin:auto;"> 
+<br><br><br><br><br><br><br><br><br>
+</div>
+
+<div class="footer" style="float:right">
+<div id="footerCont">&nbsp;</div>
+<div id="footer"><span style="background:#FFFFFF;color:black;opacity:1.0;margin-right:10px;">&nbsp;&nbsp;<a href="dd.html">Disclaimer</a>&nbsp;&nbsp;A <a href="http://5mode.com">5 Mode</a> project and <a href="http://demo.5mode.com">WYSIWYG</a> system. MIT License.</span></div>	
+</div>	
+
+</div>
+
+<div id="originsDisplay">
+      <br>
+       &nbsp;<span class="originLabel">Coding:</span>&nbsp;Italy</span><br>         
+       &nbsp;<span class="originLabel">Server:</span>&nbsp;United States&nbsp;<br>
+       &nbsp;<span class="originLabel"><a href="http://metrica.yandex.com" class="bbb">Metrics</a>:</span>&nbsp;Russia&nbsp;<br>
+      <br>
+</div>   
+  
+<script>
+  
+function setOriginsPos() {
+  h=parseInt(window.innerHeight);
+  w=parseInt(window.innerWidth);
+  mytop = parseInt(window.innerHeight - ($("#originsDisplay").height() + 60));
+  $("#originsDisplay").css("top", mytop+"px");
+  setTimeout("hideOrigins()",15000);
+}
+
+function hideOrigins() {
+  $("#originsDisplay").css("visibility","hidden");
+}  
+ 
+function setFooterPos() {
+  if (document.getElementById("footerCont")) {
+    tollerance = -112;  	  
+    footerContHeight = 35;
+    footerHeight = 32;
+    document.getElementById("footerCont").style.top = parseInt( getDocHeight2() - footerContHeight - tollerance ) + "px";
+    document.getElementById("footer").style.top = parseInt( getDocHeight2() - footerHeight - tollerance) + "px";
+  }
+}
+setFooterPos();
+
+setTimeout("setOriginsPos()", 500);
+$("#originsDisplay").show();
+
+</script>  
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(97642881, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/97642881" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+</html>
