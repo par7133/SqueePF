@@ -12,6 +12,6 @@ Please actionate DEBUG to disable messages.
 
 Screenshot:
 
-
+![SqueePF in action #1](/Public/res/screenshot1.png)<br>
 
 Feedback: posta@elettronica.lol
