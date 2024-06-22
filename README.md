@@ -1,2 +1,2 @@
 # SqueePF
-Sanity-check quasi universal and PHP Framework
+Sanity-check quasi universale and PHP Framework
