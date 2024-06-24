@@ -8,7 +8,7 @@ SqueePF born as an attempt to contribute to the security of your websites in thi
 - ROUTE DEPENDENCIES;
 - ROUTE WEB RESOURCES;
 
-Please actionate DEBUG to disable messages.
+...Please actionate DEBUG to disable messages.
 
 2) <u>Caching attacks identification</u>
 
