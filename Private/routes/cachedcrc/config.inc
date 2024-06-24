@@ -1,4 +1,4 @@
 <?php
 
-  $phpExecName = "php-8.2";
+  $phpExecName = "php";
   $cachedScript = "test.php";
