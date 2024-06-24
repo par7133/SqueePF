@@ -21,4 +21,6 @@ Screenshot:
 
 ![SqueePF in action #1](/Public/res/screenshot1.png)<br>
 
+![SqueePF in action #1](/Public/res/screenshot2.png)<br>
+
 Feedback: posta@elettronica.lol
