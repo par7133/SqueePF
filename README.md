@@ -3,14 +3,14 @@ Sanity-check quasi universale and PHP Framework
 
 SqueePF born as an attempt to contribute to the security of your websites in this hostile jungle.
 
-Sanity checks performed live per route:
+<u>Sanity checks performed live per route:</u>
 - ROUTE STRUCTURE;
 - ROUTE DEPENDENCIES;
 - ROUTE WEB RESOURCES;
 
 Please actionate DEBUG to disable messages.
 
-Caching attacks identification
+<u>Caching attacks identification</u>
 
 Please customize
 Private/routes/cachedcrc/config.inc
