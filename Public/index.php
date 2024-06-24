@@ -27,19 +27,18 @@
  */
 
 require "../Private/core/init.inc";
-require "../Private/core/sc.inc";
+
+use fivemode\fivemode\SC;
 
 // FUNCTION AND VARIABLE DECLARATIONS
 
+$SC = &SC::getInstance();
 
 // PARAMETERS VALIDATION
 
 $url = filter_input(INPUT_GET, "url")??"";
 $url = strip_tags($url);
 $url = strtolower(trim(substr($url, 0, 300), "/"));
-
-//echo($url);
-//exit;
 
 switch ($url) {
   case "cachedcrc":
@@ -65,8 +64,8 @@ switch ($url) {
         
   case "":
   case "test":
-  
-    $rret =  SC_CHECK_ROUTE_ALL("test");  
+
+    $rret =  $SC->SC_CHECK_ROUTE_ALL("test");  
     if ( $rret === 200) {
        $scriptPath = APP_ROUTES_PATH . "/test";
        define("ROUTE_NAME", "test");
@@ -76,7 +75,7 @@ switch ($url) {
        define("ROUTE_NAME", "err-$rret");
        define("ROUTE_FILENAME", "err-$rret.php");  
     }
-                
+                              
     break; 
   case "test/+desc":
     $scriptPath = APP_ROUTES_PATH . "/test";
