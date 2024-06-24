@@ -12,10 +12,10 @@ Please actionate DEBUG to disable messages.
 
 2) <u>Caching attacks identification</u>
 
-Please customize
-Private/routes/cachedcrc/config.inc
-and
-Private/routes/cachedcrc/test.php
+- Please customize
+   Private/routes/cachedcrc/config.inc
+  and
+   Private/routes/cachedcrc/test.php
 
 Screenshot:
 
