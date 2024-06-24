@@ -42,6 +42,27 @@ $url = strtolower(trim(substr($url, 0, 300), "/"));
 //exit;
 
 switch ($url) {
+  case "cachedcrc":
+  
+    //$rret =  SC_CHECK_ROUTE_ALL("test");  
+    //if ( $rret === 200) {
+       $scriptPath = APP_ROUTES_PATH . "/cachedcrc";
+       define("ROUTE_NAME", "testcached");
+       define("ROUTE_FILENAME", "testcached.php");   
+    //} else {
+    //   $scriptPath = APP_ERROR_PATH;
+    //   define("ROUTE_NAME", "err-$rret");
+    //   define("ROUTE_FILENAME", "err-$rret.php");  
+    //}
+                
+    break; 
+  case "inccrcsource":
+  
+       $scriptPath = APP_ROUTES_PATH . "/cachedcrc";
+       define("ROUTE_NAME", "end");
+       define("ROUTE_FILENAME", "end.php");   
+       break;         
+        
   case "":
   case "test":
   
