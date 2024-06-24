@@ -1,5 +1,5 @@
 # SqueePF
-Sanity-check quasi universale and PHP Framework
+Sanity-check quasi universale and PHP Framework. Let everyone squeeze its PHP code. - GPL
 
 SqueePF born as an attempt to contribute to the security of your websites in this hostile jungle.
 
@@ -10,6 +10,10 @@ SqueePF born as an attempt to contribute to the security of your websites in thi
 
 ...Please actionate DEBUG to disable messages.
 
+Screenshot #1:
+
+![SqueePF in action #1](/Public/res/screenshot1.png)<br>
+
 2) <u>Caching attacks identification</u>
 
 - Please customize
@@ -17,10 +21,8 @@ SqueePF born as an attempt to contribute to the security of your websites in thi
   and
    Private/routes/cachedcrc/test.php
 
-Screenshot:
+Screenshot #2:
 
-![SqueePF in action #1](/Public/res/screenshot1.png)<br>
-
-![SqueePF in action #1](/Public/res/screenshot2.png)<br>
+![SqueePF in action #2](/Public/res/screenshot2.png)<br>
 
 Feedback: posta@elettronica.lol
