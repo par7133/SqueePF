@@ -10,6 +10,13 @@ Sanity checks performed live per route:
 
 Please actionate DEBUG to disable messages.
 
+Caching attacks identification
+
+Please customize
+Private/routes/cachedcrc/config.inc
+and
+Private/routes/cachedcrc/test.php
+
 Screenshot:
 
 ![SqueePF in action #1](/Public/res/screenshot1.png)<br>
