@@ -16,11 +16,10 @@ Screenshot #1:
 
 2) <u>Caching attacks identification</u>
 
-- Please customize
-   Private/routes/cachedcrc/config.inc
-  and
-   Private/routes/cachedcrc/test.php
-
+- Please customize PHP_EXE_NAME in<br>
+   Private/config/const.php.inc
+  
+  
 Screenshot #2:
 
 ![SqueePF in action #2](/Public/res/screenshot2.png)<br>
