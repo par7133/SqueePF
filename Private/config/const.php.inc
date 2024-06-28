@@ -65,3 +65,6 @@ if (!defined("PHP_TILDE")) {
 if (!defined("PHP_UNDERSCORE")) {
   define('PHP_UNDERSCORE', "_");
 }
+if (!defined("PHP_EXE_NAME")) {
+  define('PHP_EXE_NAME',"php-8.2");
+}
