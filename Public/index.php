@@ -28,10 +28,12 @@
 
 require "../Private/core/init.inc";
 
+use fivemode\fivemode\CV;
 use fivemode\fivemode\SC;
 
 // FUNCTION AND VARIABLE DECLARATIONS
 
+$CV = &CV::getInstance();
 $SC = &SC::getInstance();
 
 // PARAMETERS VALIDATION
@@ -41,19 +43,18 @@ $url = strip_tags($url);
 $url = strtolower(trim(substr($url, 0, 300), "/"));
 
 switch ($url) {
-  case "cachedcrc":
+  case "cachecrc":
   
-    //$rret =  SC_CHECK_ROUTE_ALL("test");  
-    //if ( $rret === 200) {
-       $scriptPath = APP_ROUTES_PATH . "/cachedcrc";
-       define("ROUTE_NAME", "testcached");
-       define("ROUTE_FILENAME", "testcached.php");   
-    //} else {
-    //   $scriptPath = APP_ERROR_PATH;
-    //   define("ROUTE_NAME", "err-$rret");
-    //   define("ROUTE_FILENAME", "err-$rret.php");  
-    //}
-                
+    $rret =  $CV->CV_CHECK_CACHE("cachecrc", APP_ROUTES_PATH . "/cachecrc", false);  
+    if ( $rret ) {
+       $CV->CV_CHECK_CACHE("cachecrc", APP_ROUTES_PATH . "/cachecrc", true);
+        exit(0); 
+    } else {
+        $scriptPath = APP_ERROR_PATH;
+        define("ROUTE_NAME", "err-502");
+        define("ROUTE_FILENAME", "err-502.php");  
+    }
+                                                
     break; 
   case "inccrcsource":
   
