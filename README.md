@@ -24,4 +24,4 @@ Screenshot #2:
 
 ![SqueePF in action #2](/Public/res/screenshot2.png)<br>
 
-Feedback: posta@elettronica.lol
+Feedback: <a href="mailto:code@gaox.io">code@gaox.io</a>
