@@ -10,6 +10,10 @@ SqueePF born as an attempt to contribute to the security of your websites in thi
 
 ...Please actionate DEBUG to disable messages.
 
+For any need of software additions, plugins and improvements please write to <a href="mailto:info@5mode.com">info@5mode.com</a>  
+
+To help please donate by clicking <a href="https://gaox.io/l/dona1">https://gaox.io/l/dona1</a> and filling the form.
+
 Screenshot #1:
 
 ![SqueePF in action #1](/Public/res/screenshot1.png)<br>
